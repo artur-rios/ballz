@@ -113,7 +113,7 @@ playGame.prototype = {
     }
   },
 
-  aimBall: function (e) {
+  aimBall: function () {
     if (!this.shooting) {
       this.aiming = true;
     }
